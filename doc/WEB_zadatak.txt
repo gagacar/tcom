@@ -1,0 +1,51 @@
+﻿AJAX CRUD Book App
+
+Potrebno je napraviti aplikaciju za unos i pregled knjiga. 
+
+Aplikacija mora da sadrži:
+	
+- Početna strana sadrži 
+		
+- listu knjiga sa osnovnim podacima (osnovni podaci: naslov, autor, godina i datum izdanja, slika)
+		
+- dugme za unos nove knjige
+		
+- polje za pretragu liste knjiga
+		
+- filter selekt lista koja sadrži autore svih unetih knjiga
+		
+- filter selekt lista koja sadrži godine izdanja svih unetih knjiga
+		
+- polje SEARCH za aktivnu pretragu knjiga po bilo kom parametru
+		
+- pored svake knjige postoje dva dugmeta, dugme za editovanje(izmenu) i dugme za brisanje
+	
+- Prilikom klika na dugme za unos nove knjige otvara se modal sa formom za unos (osnovni podaci: naslov, autor, 
+		
+godina i datum izdanja i slika).
+		
+- sva polja su obavezna
+		
+- godina i datum izdanja se unose pomocu datepicker-a
+		
+- polje za unos slike mora da sadrzi dugme za upload slike
+		
+- polje za sliku mora da bude ograničeno da prihvata samo .jpg format
+		
+- modal sadrži polje sačuvaj i vrati se. 
+		
+- prilikom "submit"-ovanja forme, početna strana se ne osvežava, već je potrebno koristiti AJAX i osvežiti samo 
+		  
+listu knjiga.
+	
+- Prilikom klika na dugme za editovanje otvara se modal sa podacima koja su vezana samo za tu knjigu.
+		
+- modal za editovanje sadrži ista polja kao i modal za unos nove knjige.
+		
+
+
+Za izradu zadatka potrebno je koristiti: PHP, HTML5, CSS3, Jquery, MySQL i Bootstrap.
+Preporuka je koristiti CakePhp framework ali nije obavezno. 
+Aplikaciju je potrebno postaviti na Github ili Bitbucket kao i dump baze. 
+Predlog idejnog resenja (mockup) je u prilogu 
+	
